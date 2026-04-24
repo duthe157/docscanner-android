@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CamScanner</string>
+    <string name="scan_new">Scan mới</string>
+    <string name="import_image">Import ảnh</string>
+    <string name="documents">Tài liệu</string>
+    <string name="settings">Cài đặt</string>
+    <string name="camera_permission_required">Cần quyền camera để chụp ảnh</string>
+    <string name="storage_permission_required">Cần quyền truy cập ảnh</string>
+</resources>

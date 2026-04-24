@@ -1,0 +1,28 @@
+# ── Build outputs ─────────────────────────────────────────────────────────────
+build/
+app/build/
+.gradle/
+
+# ── Local config (chứa đường dẫn SDK/JDK trên máy cá nhân) ───────────────────
+local.properties
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ── Keystore (KHÔNG bao giờ commit key ký) ────────────────────────────────────
+*.jks
+*.keystore
+keystore.properties
+
+# ── Kiro workspace state (không cần thiết cho người khác) ─────────────────────
+.kiro/settings/
+
+# ── Test artifacts ────────────────────────────────────────────────────────────
+*.apk
+*.aab
+
+# ── Gradle wrapper jar (optional — nhiều project giữ lại để offline build) ────
+# gradle/wrapper/gradle-wrapper.jar
