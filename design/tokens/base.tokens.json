@@ -1,0 +1,297 @@
+{
+  "_comment_source": "Extracted from Android implementation — presentation/theme/Color.kt, Typography.kt, Shape.kt",
+  "_comment_unit": "1 token unit = 1 Android dp = 1 iOS pt = 1 Figma unit",
+
+  "color": {
+    "background": {
+      "primary":   "#0D1F1E",
+      "secondary": "#1A2E2D",
+      "elevated":  "#1F3533",
+      "bottomNav": "#111E1D"
+    },
+    "surface": {
+      "card":    "#1A2E2D",
+      "overlay": "#CC0D1F1E"
+    },
+    "text": {
+      "primary":   "#FFFFFF",
+      "secondary": "#8A9E9D",
+      "disabled":  "#4A5E5D",
+      "onPrimary": "#0D1F1E"
+    },
+    "action": {
+      "primary":         "#2DD4BF",
+      "primaryDark":     "#1BA89A",
+      "primaryText":     "#0D1F1E",
+      "container":       "#1A3D3A",
+      "containerLight":  "#234E4A",
+      "destructive":     "#FF5252"
+    },
+    "border": {
+      "subtle": "#243534",
+      "medium": "#2E4543"
+    },
+    "status": {
+      "error":   "#FF5252",
+      "success": "#4CAF50",
+      "warning": "#FFB74D"
+    },
+    "icon": {
+      "default":   "#8A9E9D",
+      "active":    "#2DD4BF",
+      "onPrimary": "#0D1F1E"
+    },
+    "camera": {
+      "overlay":    "#660000000",
+      "guideBorder": "#2196F3",
+      "guideCorner": "#FFFFFF",
+      "handle":     "#2DD4BF"
+    }
+  },
+
+  "spacing": {
+    "0":  0,
+    "1":  2,
+    "2":  4,
+    "3":  8,
+    "4":  10,
+    "5":  12,
+    "6":  16,
+    "7":  20,
+    "8":  24,
+    "9":  32,
+    "10": 40,
+    "11": 48,
+    "12": 52,
+    "13": 56,
+    "14": 64,
+    "15": 72,
+    "16": 80,
+
+    "screenPadding":    16,
+    "cardPadding":      12,
+    "sectionGap":       24,
+    "itemGap":          10,
+    "iconTextGap":       4,
+    "buttonHeight":     52,
+    "topBarHeight":     56,
+    "bottomBarHeight":  56,
+    "touchTarget":      48,
+    "fabSize":          56,
+    "shutterOuter":     80,
+    "shutterInner":     64
+  },
+
+  "radius": {
+    "none":        0,
+    "xs":          4,
+    "sm":          8,
+    "md":         12,
+    "lg":         16,
+    "xl":         24,
+    "full":     9999,
+
+    "card":        12,
+    "button":      12,
+    "chip":        9999,
+    "dialog":      16,
+    "bottomSheet": 24,
+    "thumbnail":    8,
+    "quickAction": 12,
+    "formatCard":  12,
+    "cornerZoom":  12
+  },
+
+  "typography": {
+    "headlineLarge": {
+      "fontSize":      28,
+      "fontWeight":    "Bold",
+      "lineHeight":    36,
+      "letterSpacing":  0
+    },
+    "headlineMedium": {
+      "fontSize":      22,
+      "fontWeight":    "SemiBold",
+      "lineHeight":    28,
+      "letterSpacing":  0
+    },
+    "titleLarge": {
+      "fontSize":      18,
+      "fontWeight":    "SemiBold",
+      "lineHeight":    24,
+      "letterSpacing":  0
+    },
+    "titleMedium": {
+      "fontSize":      16,
+      "fontWeight":    "Medium",
+      "lineHeight":    22,
+      "letterSpacing":  0
+    },
+    "titleSmall": {
+      "fontSize":      14,
+      "fontWeight":    "Medium",
+      "lineHeight":    20,
+      "letterSpacing":  0
+    },
+    "bodyLarge": {
+      "fontSize":      16,
+      "fontWeight":    "Normal",
+      "lineHeight":    24,
+      "letterSpacing":  0
+    },
+    "bodyMedium": {
+      "fontSize":      14,
+      "fontWeight":    "Normal",
+      "lineHeight":    20,
+      "letterSpacing":  0
+    },
+    "bodySmall": {
+      "fontSize":      12,
+      "fontWeight":    "Normal",
+      "lineHeight":    16,
+      "letterSpacing":  0,
+      "color":         "text.secondary"
+    },
+    "labelLarge": {
+      "fontSize":      15,
+      "fontWeight":    "SemiBold",
+      "lineHeight":    20,
+      "letterSpacing":  0
+    },
+    "labelMedium": {
+      "fontSize":      13,
+      "fontWeight":    "Medium",
+      "lineHeight":    18,
+      "letterSpacing":  0
+    },
+    "labelSmall": {
+      "fontSize":      11,
+      "fontWeight":    "Normal",
+      "lineHeight":    14,
+      "letterSpacing":  0,
+      "color":         "text.secondary"
+    }
+  },
+
+  "shadow": {
+    "none":    0,
+    "xs":      1,
+    "sm":      2,
+    "md":      4,
+    "lg":      8,
+    "xl":     16,
+
+    "card":    1,
+    "cardDragging": 8,
+    "fab":     8
+  },
+
+  "icon": {
+    "xs":  12,
+    "sm":  16,
+    "md":  18,
+    "lg":  20,
+    "xl":  24,
+    "xxl": 28,
+    "hero": 40,
+    "empty": 72
+  },
+
+  "component": {
+    "button": {
+      "height":            52,
+      "paddingHorizontal": 16,
+      "radius":            12,
+      "iconSize":          20
+    },
+    "outlinedButton": {
+      "height":            52,
+      "paddingHorizontal": 16,
+      "radius":            12,
+      "borderWidth":        1
+    },
+    "documentCard": {
+      "padding":           12,
+      "radius":            12,
+      "borderWidth":        1,
+      "thumbnailWidth":    52,
+      "thumbnailHeight":   70,
+      "thumbnailRadius":    8,
+      "itemGap":           10
+    },
+    "recentDocumentCard": {
+      "width":             100,
+      "thumbnailHeight":    80,
+      "padding":            8,
+      "radius":            12,
+      "borderWidth":        1
+    },
+    "quickActionButton": {
+      "iconBoxSize":        56,
+      "iconBoxRadius":      12,
+      "iconSize":           24,
+      "paddingHorizontal":   8,
+      "paddingVertical":     4,
+      "labelGap":            6
+    },
+    "storageOverviewCard": {
+      "padding":            16,
+      "radius":             12,
+      "borderWidth":         1,
+      "dividerWidth":        1,
+      "dividerHeight":      48,
+      "iconSize":           24
+    },
+    "topBar": {
+      "height":             56,
+      "paddingHorizontal":  16
+    },
+    "bottomNav": {
+      "containerColor":    "color.background.bottomNav",
+      "indicatorColor":    "color.action.container",
+      "tonalElevation":     0
+    },
+    "fab": {
+      "size":               56,
+      "radius":             12,
+      "iconSize":           24
+    },
+    "scanButton": {
+      "outerSize":          80,
+      "innerSize":          64,
+      "iconSize":           28
+    },
+    "filterChip": {
+      "height":             32,
+      "radius":             9999
+    },
+    "pageItem": {
+      "padding":            10,
+      "radius":             12,
+      "thumbnailWidth":     56,
+      "thumbnailHeight":    76,
+      "thumbnailRadius":     8,
+      "dragHandleSize":     36,
+      "actionButtonSize":   36
+    },
+    "formatCard": {
+      "width":              90,
+      "radius":             12,
+      "paddingVertical":    12,
+      "paddingHorizontal":   8,
+      "iconSize":           28,
+      "selectedBorderWidth": 2,
+      "defaultBorderWidth":  1
+    },
+    "cornerZoomOverlay": {
+      "size":              120,
+      "radius":             12,
+      "crosshairLength":    12,
+      "crosshairStroke":   1.5
+    },
+    "permissionView": {
+      "iconSize":           72,
+      "paddingHorizontal":  32
+    }
+  }
+}
